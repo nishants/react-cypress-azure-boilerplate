@@ -1,0 +1,30 @@
+$iconsHeight: 40px;
+$iconButtonWidth: 60px;
+$iconButtonSize: 21px;
+
+#top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: $padding;
+  border-bottom: 1px solid $light_border_color;
+  background: $theme_light_color;
+
+  img {
+    height: $iconsHeight;
+    float: left;
+  }
+
+  ul {
+    float: right;
+    @extend .undo-list;
+    li {
+      float: left;
+      width: $iconButtonWidth;
+      font-size: $iconButtonSize;
+      line-height: $iconsHeight;
+    }
+  }
+  @extend .resize-container;
+}

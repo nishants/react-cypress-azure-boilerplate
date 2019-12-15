@@ -4,4 +4,8 @@
   left: 0;
   width: 100vw;
   padding: $padding;
+
+  border-bottom: 1px solid $light_border_color;
+  background: $theme_light_color;
+  @extend .resize-container;
 }
