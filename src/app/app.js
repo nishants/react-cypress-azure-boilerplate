@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 
 import './app.scss';
 import Routes from './routes';
+import BottomBar from './shared/bottomBar';
 
 Sentry.init({
   dsn: 'https://7bf552970ea54e0ca079bd71c62f3d90@sentry.io/1408911'
@@ -20,7 +21,12 @@ class App extends React.PureComponent {
   }
 
   render() {
-    return <Routes />;
+    return (
+      <div>
+        <Routes />
+        <BottomBar />
+      </div>
+    );
   }
 }
 

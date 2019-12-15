@@ -1,6 +1,7 @@
 @import 'styles/_base.scss';
 
 @import './pages/homepage/homepage';
+@import './shared/bottomBar/bottomBar';
 
 .fullpage {
   min-height: 100vh;
