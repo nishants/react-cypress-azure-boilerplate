@@ -1,3 +1,1 @@
-export default {
-  portfolioData: []
-};
+export default {};
