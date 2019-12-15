@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => {
   return (
-    <navigation id="top-bar">
+    <nav id="top-bar">
       <img src="icons/agrostar.png" alt="Agro Star" />
       <ul>
         <li>
@@ -12,6 +12,6 @@ export default () => {
           <i className="fas fa-user" />
         </li>
       </ul>
-    </navigation>
+    </nav>
   );
 };

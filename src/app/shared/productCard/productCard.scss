@@ -1,0 +1,11 @@
+.product-card {
+  position: relative;
+  text-align: left;
+  padding: $padding;
+  background: $theme_light_color;
+  img {
+    display: block;
+    width: 100%;
+  }
+  @extend .resize-container;
+}

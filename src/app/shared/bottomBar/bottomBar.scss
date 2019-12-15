@@ -1,5 +1,6 @@
 .bottom-bar {
   position: fixed;
+  z-index: $top_bar_zindex;
   bottom: 0;
   left: 0;
   width: 100vw;

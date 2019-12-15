@@ -4,9 +4,10 @@
 @import './shared/bottomBar/bottomBar';
 @import './shared/topBar/topBar';
 @import './shared/searchInput/searchInput';
+@import './shared/productCard/productCard';
 
 .fullpage {
-  padding: $barLineHeight + 3 * $padding $padding $padding;
+  padding: $barLineHeight + 3 * $padding $padding $barLineHeight + 3 * $padding;
   min-height: 100vh;
   min-widtht: 100vw;
 }
