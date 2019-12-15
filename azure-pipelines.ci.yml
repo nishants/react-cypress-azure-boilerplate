@@ -5,7 +5,7 @@ steps:
 - script: npm ci
   displayName: 'Installing node modules'
 
-- script: npm run lint
+- script: npm run lint:ci
   displayName: 'Checking for lint errors'
 
 - script: |
