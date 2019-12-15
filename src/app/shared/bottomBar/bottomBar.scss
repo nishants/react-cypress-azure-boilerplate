@@ -1,4 +1,4 @@
-#bottom-bar {
+.bottom-bar {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -7,5 +7,24 @@
 
   border-bottom: 1px solid $light_border_color;
   background: $theme_light_color;
+  &__button {
+    display: block;
+    color: red;
+    width: 50%;
+    float: left;
+    color: $light_black_text;
+    i,
+    label {
+      display: block;
+      line-height: $barLineHeight/2;
+    }
+    i {
+      font-size: 18px;
+    }
+
+    &--selected {
+      color: $selection_color;
+    }
+  }
   @extend .resize-container;
 }
