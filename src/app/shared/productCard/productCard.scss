@@ -1,11 +1,26 @@
 .product-card {
   position: relative;
   text-align: left;
-  padding: $padding;
+  padding: $padding * 2;
   background: $theme_light_color;
+  border-radius: $default_border_radius;
+
   img {
+    border-radius: $default_border_radius;
     display: block;
     width: 100%;
+    margin-bottom: $padding;
   }
+
+  &__title,
+  &__subtitle {
+    font-size: $large_font;
+  }
+
+  &__boldtext {
+    font-weight: $font_weight_bold;
+    font-size: $large_font;
+  }
+
   @extend .resize-container;
 }
