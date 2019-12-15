@@ -8,7 +8,7 @@ const INITIAL_STATE = {
   }
 };
 
-const reducer = (state = INITIAL_STATE, action) => {
+const homepageReducers = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case HOME_ACTIONS.SEARCH_FOR_KEY:
       return {
@@ -42,4 +42,4 @@ const reducer = (state = INITIAL_STATE, action) => {
   }
 };
 
-export default reducer;
+export default homepageReducers;

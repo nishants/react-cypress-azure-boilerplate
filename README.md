@@ -2,10 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
-
 ### How To
-
 
 ```bash
 # install dependecies
@@ -17,7 +14,10 @@ npm install
 # You will also see any lint errors in the console.
 npm start
 
-# Run unit tests with Jest
+# Run all lints
+npm run lint
+
+# Run and watch Jest tests
 npm test
 
 # Run UI tests in Cypress UI
@@ -27,15 +27,11 @@ npm run cypress:open
 npm run cypress:ci
 ```
 
-
-
 ### Conitnuous Integrations
 
 - This app uses Azure for CI/CD.
 - Refer [azure-pipelines.ci.yml](./azure-pipelines.ci.yml)
 
-
-
 ### Deployment
 
-- Any change to repo is auto deployed user AWS azure to this url : 
+- Any change to repo is auto deployed user AWS azure to this url :
