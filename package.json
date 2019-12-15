@@ -8,11 +8,12 @@
     "lint:ci": "eslint src/ && stylelint src/*.scss",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "cypress:ci": "npm-run-all -p --race start cypress:run",
+    "cypress:ci": "npm-run-all -p --race start:ci cypress:run",
     "start": "NODE_PATH=. react-scripts start",
     "build": "NODE_PATH=. react-scripts build",
     "test": "NODE_PATH=. react-scripts test",
-    "test:ci": "CI=true NODE_PATH=. react-scripts test"
+    "test:ci": "CI=true NODE_PATH=. react-scripts test",
+    "start:ci": "npx http-server build --port 3000"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
