@@ -1,0 +1,24 @@
+.search-input {
+  position: relative;
+  background: $theme_light_color;
+  border: 1px solid $light_border_color;
+
+  input {
+    display: block;
+    @include placeholder {
+      color: $light_black_text;
+      font-style: italic;
+    }
+  }
+
+  i {
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(calc(-50%));
+    width: 60px;
+    pointer-events: none;
+    font-size: 16px;
+  }
+  @extend .resize-container;
+}

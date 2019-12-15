@@ -3,10 +3,12 @@
 @import './pages/homepage/homepage';
 @import './shared/bottomBar/bottomBar';
 @import './shared/topBar/topBar';
+@import './shared/searchInput/searchInput';
 
 .fullpage {
+  padding: $barLineHeight + 3 * $padding $padding $padding;
   min-height: 100vh;
-  min-widht: 100vw;
+  min-widtht: 100vw;
 }
 
 @media only screen and (max-width: $mobile_width) {
