@@ -1,7 +1,9 @@
+$buttonHeight: 45px;
+
 .product-card {
   position: relative;
   text-align: left;
-  padding: $padding * 2;
+  padding: $padding;
   background: $theme_light_color;
   border-radius: $default_border_radius;
 
@@ -20,6 +22,49 @@
   &__boldtext {
     font-weight: $font_weight_bold;
     font-size: $large_font;
+  }
+
+  &__badgetext {
+    position: absolute;
+    left: 0;
+    top: $padding * 2;
+    background: $skill_color;
+    padding: 0 10px;
+    line-height: 21px;
+  }
+
+  &__additem {
+    color: $green;
+    border: 1px solid $green;
+    font-weight: $font_weight_bold;
+    line-height: $buttonHeight;
+    margin-top: $padding;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &__changequantity {
+    color: $green;
+    border: 1px solid $green;
+    font-weight: $font_weight_bold;
+    margin-top: $padding;
+    text-align: center;
+    line-height: $buttonHeight;
+
+    @extend .resize-container;
+    .increment,
+    .decrement {
+      width: 60px;
+      line-height: 45px;
+      background: $green_tint;
+      cursor: pointer;
+    }
+    .increment {
+      float: left;
+    }
+    .decrement {
+      float: right;
+    }
   }
 
   @extend .resize-container;
