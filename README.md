@@ -34,4 +34,4 @@ npm run cypress:ci
 
 ### Deployment
 
-- Any change to repo is auto deployed user AWS azure to this url :
+- Any change to repo is auto deployed user AWS azure to this url :https://agromart.z10.web.core.windows.net/
