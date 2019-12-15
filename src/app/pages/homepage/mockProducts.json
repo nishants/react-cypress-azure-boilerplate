@@ -29,5 +29,36 @@
     "subTitle": "Seed",
     "boldText": "Rs. 235",
     "quantityAdded": 1
+  },
+  {
+    "id": 5,
+    "imgSrc": "images/cotton-seed.jpg",
+    "title": "Ajeet 155 BG II Cotton",
+    "subTitle": "Seed",
+    "boldText": "Rs. 235"
+  },
+  {
+    "id": 6,
+    "imgSrc": "images/cotton-seed.jpg",
+    "title": "Ajeet 155 BG II Cotton",
+    "subTitle": "Seed",
+    "boldText": "Rs. 235",
+    "quantityAdded": 2,
+    "badgeText": "Buy 2 Get 1 Free"
+  },
+  {
+    "id": 7,
+    "imgSrc": "images/cotton-seed.jpg",
+    "title": "Ajeet 155 BG II Cotton",
+    "subTitle": "Seed",
+    "boldText": "Rs. 235"
+  },
+  {
+    "id": 8,
+    "imgSrc": "images/cotton-seed.jpg",
+    "title": "Ajeet 155 BG II Cotton",
+    "subTitle": "Seed",
+    "boldText": "Rs. 235",
+    "quantityAdded": 1
   }
 ]
