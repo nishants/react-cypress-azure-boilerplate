@@ -9,7 +9,7 @@ steps:
   displayName: 'Checking for lint errors'
 
 - script: |
-    npm test
+    npm run test:ci
   displayName: 'Run unit tests'
 
 - script: |
